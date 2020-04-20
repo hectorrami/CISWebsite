@@ -24,14 +24,14 @@ nav{
 }
 
 .navLinks a{
-    color: rgba(212, 74, 212, 0.6);
+    color: rgb(134, 31, 134);
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
 }
 
 .navLinks a:hover{
-    color: rgba(212, 74, 212, 0.95);
+    color: white;
 }
 
 .navLinks li{
