@@ -4,39 +4,6 @@
     box-sizing: border-box;
 }
 
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: rgba(243, 240, 240, 0.911);
-    font-family: 'Baloo Tamma 2', cursive;
-    min-height: 14vh;
-}
-
-.WebLogo img{
-    height: 12vh;
-}
-
-.navLinks{
-    display: flex;
-    justify-content: space-around;
-    width: 50%;
-}
-
-.navLinks a{
-    color: rgb(134, 31, 134);
-    text-decoration: none;
-    letter-spacing: 3px;
-    font-weight: bold;
-}
-
-.navLinks a:hover{
-    color: white;
-}
-
-.navLinks li{
-    list-style: none;
-}
 
 body{
     background-image: linear-gradient(to right,rgb(231, 173, 65), rgb(219, 135, 215) );

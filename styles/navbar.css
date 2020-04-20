@@ -2,7 +2,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(243, 240, 240);
+    background-color: rgb(185, 175, 175);
     font-family: 'Baloo Tamma 2', cursive;
     min-height: 14vh;
 }
@@ -18,7 +18,7 @@ nav{
 }
 
 .navLinks a{
-    color: rgb(134, 31, 134);
+    color: rgb(194, 15, 194);
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
