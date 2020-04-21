@@ -2,7 +2,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(185, 175, 175);
+    background-color: black;
     font-family: 'Baloo Tamma 2', cursive;
     min-height: 14vh;
 }
