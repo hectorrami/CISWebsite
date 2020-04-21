@@ -2,13 +2,14 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(10, 10, 10);
+    background-color: black;
     font-family: 'Baloo Tamma 2', cursive;
     min-height: 10vh;
 }
 
 .WebLogo img{
     height: 8vh;
+    opacity: .9;
 }
 
 .navLinks{

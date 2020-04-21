@@ -3,13 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel= "stylesheet" type= "text/css" href="styles/index.css" />
     <link rel= "stylesheet" type= "text/css" href="styles/navbar.css" />
+    <script src="./scripts/scripts.js" defer></script>
+
+
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet">
     <title>What's Hot In The Streets</title>
     <script src="https://kit.fontawesome.com/564f193569.js" crossorigin="anonymous"></script>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+
+  
+  </head>
 </head>
 <body>
 <!-- Create a Navbar -->
@@ -29,9 +37,8 @@
     </ul>
 </nav>
 <!-- End Navbar -->
-
 <div class="greeting">
-    <h1 class="animated rubberBand"> What's HOT In The Streets </h1>
+    <h1>What's HOT In The Streets </h1>
         <p>
             Welcome to our website where we review some of the latest
             rap, pop, and R&B albums.
@@ -41,6 +48,8 @@
 <!-- main body -->
 <div class="about-us">
     <h1>About Us</h1>
+    <img src="./images/logo.png" alt="log" class= "img">
+    <p>We are a team of developers</p>
 </div>
 <!-- End body -->
 
@@ -49,19 +58,26 @@
     <h1>Sign up to our newsletter</h1>
     <form>
         <label>First Name</label>
-        <input type="text" placeholder="Please Enter First Name" />
+        <input type="text" placeholder="Please Enter First Name" id="firstName"/>
         <br>
         <label>Last Name</label>
-        <input type="text" placeholder="Please Enter LastName">
+        <input type="text" placeholder="Please Enter LastName" id="lastName">
         <label>Email</label>
-        <input type="email" placeholder="Please Enter Email" />
+        <input type="email" placeholder="Please Enter Email"id="email"/>
 
-        <button>Submit</button>
+        <button onclick="success()" type="button">Submit</button>
+
+        <div id="error" style="display: none;" >
+            <p></p>
+        </div>
+        <div id="success" style="display: none;">
+            <p></p>
+        </div>
+
+
     </form>
 </div>
 <!-- End Newsletter -->
-
-
 
 <!-- Footer -->
 <div class="footer">
