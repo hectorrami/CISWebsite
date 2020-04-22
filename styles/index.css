@@ -68,8 +68,8 @@ input[type=text], select {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: 1px solid rgba(100, 98, 98, 0.527);;
+    border-radius: 5px;
     box-sizing: border-box;
   }
 
@@ -78,8 +78,8 @@ input[type=text], select {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: 1px solid rgba(100, 98, 98, 0.527);
+    border-radius: 5px;
     box-sizing: border-box;
   }
 
