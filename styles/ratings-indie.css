@@ -1,0 +1,116 @@
+body{
+  background-color: #9CC3D5FF
+}
+h1{
+  font-size: 3vw;
+  margin-top: 0vw;
+  text-align: center;
+}
+#container-1{
+  display: inline-block;
+  margin-left: 5vw;
+  height: 35vw;
+  width: 20vw;
+}
+#artist-1{
+  font-size: 2vw;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+}
+#album-1{
+  font-size: 1.3vw;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+#album-art-1{
+  width: 15vw;
+  height: 15vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#album-rating-1{
+  margin-top: 0vw;
+  font-size: 2.3vw;
+  font-weight: bold;
+  text-align: center;
+}
+#album-rating-text-1{
+  font-size: 1vw;
+  font-weight: bold;
+  text-align: center;
+}
+#container-2{
+  margin-left: 14vw;
+  display: inline-block;
+  height: 35vw;
+  width: 20vw;
+}
+#artist-2{
+  font-size: 2vw;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+}
+#album-2{
+  font-size: 1.3vw;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+#album-art-2{
+  width: 15vw;
+  height: 15vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#album-rating-2{
+  margin-top: 0vw;
+  font-size: 2.3vw;
+  font-weight: bold;
+  text-align: center;
+}
+#album-rating-text-2{
+  font-size: 1vw;
+  font-weight: bold;
+  text-align: center;
+}
+#container-3{
+  margin-left:10vw;
+  display: inline-block;
+  height: 35vw;
+  width: 20vw;
+}
+#artist-3{
+  font-size: 2vw;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+}
+#album-3{
+  font-size: 1.3vw;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+#album-art-3{
+  width: 15vw;
+  height: 15vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#album-rating-3{
+  margin-top: 0vw;
+  font-size: 2.3vw;
+  font-weight: bold;
+  text-align: center;
+}
+#album-rating-text-3{
+  font-size: 1vw;
+  font-weight: bold;
+  text-align: center;
+}
