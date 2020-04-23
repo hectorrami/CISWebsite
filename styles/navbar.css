@@ -2,7 +2,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(211, 69, 69, 0.356);
+    background-color:black ;
     font-family: 'Baloo Tamma 2', cursive;
     min-height: 14vh;
 }
@@ -22,6 +22,7 @@ nav{
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .navLinks a:hover{

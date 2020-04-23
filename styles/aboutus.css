@@ -1,5 +1,12 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body {
-    background-color:lavender;
+    background-image: linear-gradient(to right,rgb(231, 173, 65), rgb(219, 135, 215) );
+
     max-width: 100%;
 }
 
@@ -10,11 +17,18 @@ h1 {
     width: 100%;
 }
 
-.contact { 
-    text-align: left;
-    margin-left: 2%;
-    font-size: 1.5vw;
+.con {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    padding-left: 10%;
+    padding-top: 2%;
 }
+
+.con a {
+    padding: 2%;
+}
+
 
 h2 {
     position: absolute;
@@ -24,7 +38,7 @@ h2 {
 }
 
 .map {
-    position: absolute;
+    
     top: 20vw;
     width: 100%;
     margin-bottom: 2vw;
@@ -33,4 +47,18 @@ h2 {
 
 .map {
     text-align: center;
+}
+
+  
+.footer{
+    background-color: black;
+    height: 10vh;
+}
+
+
+.footer p{
+    text-align: center;
+    color:white;
+    font-family: 'PT Serif', serif;
+    padding-top: 2%;
 }

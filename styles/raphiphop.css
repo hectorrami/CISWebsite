@@ -1,10 +1,17 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 body {
-background-color: lavender;
+  background-image: linear-gradient(to right,rgb(231, 173, 65), rgb(219, 135, 215) );
 }
 
 .leftpanel {
 position: relative;
 float: left;
+padding-left: 2%;
 margin: 1vw;
 font-size: 1.2vw;
 }
@@ -13,13 +20,13 @@ font-size: 1.2vw;
 position: relative;
 float: right;
 font-size: 1.2vw;
-
+padding-right: 3%;
 } 
 
 *{box-sizing:border-box}
 
 .container {
-max-width: 500px;
+max-width: 600px;
 position: relative;
 margin: auto;
 }
@@ -30,19 +37,18 @@ margin: auto;
 }
 
 .previous, .next {
-cursor: pointer;
-position: absolute;
-top: 2vw 
-width: 3vw;
-height: 50%
-margin-top: -22px;
-padding: 16px;
-color: white;
-font-weight: bold;
-font-size: 18px;
-transition: 0.6s ease;
-border-radius: 0 3px 3px 0;
-user-select: none;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 2vw;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
 }
 
 .next {
@@ -55,22 +61,20 @@ user-select: none;
 }
 
 .caption {
-  background-color: black;
-  color: white;
+  background-color: rgba(0,0,0,0.8);
+  color: #f2f2f2;
   font-size: 1.5vw;
   padding: 8px 12px;
   position: absolute;
-  bottom: 1.3vw;
-  width: 38vw;
+  bottom: 8px;
+  width: 100%;
   text-align: center;
 }
 
 .audio {
 position: relative;
 float: right;
-
 }
-
 
  .dot {
   cursor: pointer;
@@ -87,6 +91,11 @@ float: right;
 background-color: #717171;
 
 }
+
+p {
+  
+}
+
 
 
 /* Fading animation */
