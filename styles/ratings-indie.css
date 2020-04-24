@@ -7,7 +7,7 @@ body{
   background-image: linear-gradient(to right,rgb(231, 173, 65), rgb(219, 135, 215) );
 }
 h1{
-  text-align: center;
+  font-size: 3vw;
   margin-top: 0vw;
   text-align: center;
 }
