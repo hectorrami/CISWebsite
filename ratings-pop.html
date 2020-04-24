@@ -1,32 +1,60 @@
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="ratings-pop.css">
+    <link rel="stylesheet" type="text/css" href="styles/ratings-pop.css">
+    <link rel="stylesheet" type="text/css" href="styles/navbar.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/564f193569.js" crossorigin="anonymous"></script>
     <title>Pop Ratings</title>
 </head>
 <body>
+  <!-- Create a Navbar -->
+<nav>
+  <div class="WebLogo">
+      <a href="home.html">
+          <img src="images/logo.png"/>
+      </a>
+  </div>
+
+  <ul class="navLinks">
+      <li><a href = "pop.html">Pop</a></li>
+      <li><a href = "Indie.html">Indie</a></li>
+      <li><a href = "raphiphop.html">Rap</a></li>
+      <li><a href = "ratings-indie.html">Rating Page</a></li>
+      <li><a href = "AboutUs.html">Contact Us</a></li>
+  </ul>
+</nav>
+<!-- End Navbar -->
+<div class="greeting">
   <h1>Pop Ratings</h1>
   <div id="container-1">
     <p id="artist-1">Frank Ocean</p>
     <p id="album-1">Blond (2016)</p>
-    <img id="album-art-1" src="blonde.jpeg" alt="album-art">
+    <img id="album-art-1" src="images/blonde.jpeg" alt="album-art">
     <p id="album-rating-1">5/5</p>
     <p id="album-rating-text-1">"Beautiful coming-of-age album from the eningmatic Frank Ocean" - Dane</p>
   </div>
   <div id="container-2">
     <p id="artist-2">Tyler, The Creator</p>
     <p id="album-2">Igor (2019)</p>
-    <img id="album-art-2" src="igor.jpg" alt="album-art">
+    <img id="album-art-2" src="images/igor.jpg" alt="album-art">
     <p id="album-rating-2">3.5/5</p>
     <p id="album-rating-text-2">"Easy to listen to but not my first choice" - Autumn</p>
   </div>
   <div id="container-3">
     <p id="artist-3">Khalid</p>
     <p id="album-3">American Teen (2017)</p>
-    <img id="album-art-3" src="american_teen.png" alt="album-art">
+    <img id="album-art-3" src="images/american_teen.png" alt="album-art">
     <p id="album-rating-3">2/5</p>
     <p id="album-rating-text-3">"Decent debut but unremarkable at times" - Hector</p>
   </div>
 
+  <div class="back">
+    <a href="ratings-indie.html" ><i class="fas fa-arrow-circle-left fa-3x" style="color: black"></i></h1></a>
+  </div>
+
+  <div class="next">
+    <a href="ratings-rap.html" ><i class="fas fa-arrow-circle-right fa-3x" style="color: black;"></i></h1></a>
+  </div>
 
 </body>
 <script>

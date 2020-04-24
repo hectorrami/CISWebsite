@@ -4,11 +4,10 @@
   box-sizing: border-box;
 }
 body{
-  background-image:  linear-gradient(to right,rgb(231, 173, 65), rgb(219, 135, 215) );
-
+  background-image: linear-gradient(to right,rgb(231, 173, 65), rgb(219, 135, 215) );
 }
 h1{
-  font-size: 3vw;
+  text-align: center;
   margin-top: 0vw;
   text-align: center;
 }
@@ -119,4 +118,15 @@ h1{
   font-size: 1vw;
   font-weight: bold;
   text-align: center;
+}
+
+.next a {
+  float: right;
+  padding-right: 5%;
+}
+
+
+.back a {
+  float: left;
+  padding-left: 5%;
 }

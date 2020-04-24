@@ -1,5 +1,11 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 body{
-  background-color: #9CC3D5FF
+  background-image: linear-gradient(to right,rgb(231, 173, 65), rgb(219, 135, 215) );
 }
 h1{
   font-size: 3vw;
@@ -113,4 +119,15 @@ h1{
   font-size: 1vw;
   font-weight: bold;
   text-align: center;
+}
+
+.next a {
+  float: right;
+  padding-right: 5%;
+}
+
+
+.back a {
+  float: left;
+  padding-left: 5%;
 }
